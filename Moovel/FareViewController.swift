@@ -83,7 +83,10 @@ class FareViewController: UITableViewController {
         let tempFare = fares[indexPath.row]
         let tempUser = user
         
-        
+        let summaryController = SummaryViewController()
+        summaryController.user = tempUser
+        summaryController.fare = tempFare
+        navigationController?.pushViewController(summaryController, animated: true)
         
     }
     

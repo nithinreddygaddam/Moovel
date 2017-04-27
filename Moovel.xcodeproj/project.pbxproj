@@ -17,6 +17,7 @@
 		595E53021EB1C3AB00B04B53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E53011EB1C3AB00B04B53 /* User.swift */; };
 		595E53041EB1C5B300B04B53 /* FareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E53031EB1C5B300B04B53 /* FareViewController.swift */; };
 		595E53061EB1C5F400B04B53 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E53051EB1C5F400B04B53 /* Fare.swift */; };
+		595E530B1EB1C92500B04B53 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E530A1EB1C92500B04B53 /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		595E53011EB1C3AB00B04B53 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		595E53031EB1C5B300B04B53 /* FareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareViewController.swift; sourceTree = "<group>"; };
 		595E53051EB1C5F400B04B53 /* Fare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fare.swift; sourceTree = "<group>"; };
+		595E530A1EB1C92500B04B53 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				595E52FF1EB1C2D200B04B53 /* MainViewController.swift */,
 				595E53031EB1C5B300B04B53 /* FareViewController.swift */,
+				595E530A1EB1C92500B04B53 /* SummaryViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				595E52D01EB1C24100B04B53 /* AppDelegate.swift in Sources */,
 				595E53001EB1C2D200B04B53 /* MainViewController.swift in Sources */,
 				595E53021EB1C3AB00B04B53 /* User.swift in Sources */,
+				595E530B1EB1C92500B04B53 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
