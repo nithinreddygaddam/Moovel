@@ -122,5 +122,31 @@ class SummaryViewController: UIViewController {
         view.backgroundColor = .white
         
         navigationItem.title = "Confirm Selection"
+        
+        view.addSubview(userLabel2)
+        
+        userLabel2.anchor(top: view.topAnchor , left: view.leftAnchor, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: view.frame.width, height: 70)
+        
+        view.addSubview(userLabel)
+        
+        userLabel.anchor(top: userLabel2.bottomAnchor , left: view.leftAnchor, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 200, height: 70)
+        
+        view.addSubview(incrementButton)
+        
+        incrementButton.anchor(top: userLabel2.bottomAnchor, left: nil, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 10, width: 20, height: 20)
+        
+        view.addSubview(ticketNumberLabel)
+        
+        ticketNumberLabel.anchor(top: incrementButton.bottomAnchor, left: nil, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 5, width: 20, height: 20)
+        
+        view.addSubview(decrementButton)
+        
+        decrementButton.anchor(top: ticketNumberLabel.bottomAnchor, left: nil, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 10, width: 20, height: 20)
+        
+        view.addSubview(buyButton)
+        
+        buyButton.anchor(top: nil, left: nil, bottom: view.bottomAnchor, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: -10, paddingRight: 0, width: view.frame.width - 20, height: 60)
+        
+        buyButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
 }
