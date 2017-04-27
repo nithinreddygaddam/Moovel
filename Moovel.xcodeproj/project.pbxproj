@@ -15,6 +15,8 @@
 		595E52F01EB1C24100B04B53 /* MoovelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E52EF1EB1C24100B04B53 /* MoovelUITests.swift */; };
 		595E53001EB1C2D200B04B53 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E52FF1EB1C2D200B04B53 /* MainViewController.swift */; };
 		595E53021EB1C3AB00B04B53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E53011EB1C3AB00B04B53 /* User.swift */; };
+		595E53041EB1C5B300B04B53 /* FareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E53031EB1C5B300B04B53 /* FareViewController.swift */; };
+		595E53061EB1C5F400B04B53 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E53051EB1C5F400B04B53 /* Fare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		595E52F11EB1C24100B04B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		595E52FF1EB1C2D200B04B53 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		595E53011EB1C3AB00B04B53 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		595E53031EB1C5B300B04B53 /* FareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareViewController.swift; sourceTree = "<group>"; };
+		595E53051EB1C5F400B04B53 /* Fare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				595E52FF1EB1C2D200B04B53 /* MainViewController.swift */,
+				595E53031EB1C5B300B04B53 /* FareViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				595E53011EB1C3AB00B04B53 /* User.swift */,
+				595E53051EB1C5F400B04B53 /* Fare.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -281,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595E53041EB1C5B300B04B53 /* FareViewController.swift in Sources */,
+				595E53061EB1C5F400B04B53 /* Fare.swift in Sources */,
 				595E52D01EB1C24100B04B53 /* AppDelegate.swift in Sources */,
 				595E53001EB1C2D200B04B53 /* MainViewController.swift in Sources */,
 				595E53021EB1C3AB00B04B53 /* User.swift in Sources */,

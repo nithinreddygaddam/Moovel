@@ -48,7 +48,7 @@ class MainViewController: UITableViewController {
         let user = users[indexPath.row]
         cell.textLabel?.text = user.name
         cell.detailTextLabel?.text = user.subText
-        
+
         
         return cell
         
@@ -61,8 +61,11 @@ class MainViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard self.tableView.cellForRow(at: indexPath) != nil else { return }
         
+        let tempUser = users[indexPath.row]
         
-        
+        let fareController = FareViewController()
+        fareController.user = tempUser
+        navigationController?.pushViewController(fareController, animated: true)
     }
     
 }
