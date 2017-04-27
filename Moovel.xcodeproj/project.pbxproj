@@ -14,6 +14,7 @@
 		595E52E51EB1C24100B04B53 /* MoovelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E52E41EB1C24100B04B53 /* MoovelTests.swift */; };
 		595E52F01EB1C24100B04B53 /* MoovelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E52EF1EB1C24100B04B53 /* MoovelUITests.swift */; };
 		595E53001EB1C2D200B04B53 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E52FF1EB1C2D200B04B53 /* MainViewController.swift */; };
+		595E53021EB1C3AB00B04B53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E53011EB1C3AB00B04B53 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		595E52EF1EB1C24100B04B53 /* MoovelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoovelUITests.swift; sourceTree = "<group>"; };
 		595E52F11EB1C24100B04B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		595E52FF1EB1C2D200B04B53 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		595E53011EB1C3AB00B04B53 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		595E52FE1EB1C2BF00B04B53 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				595E53011EB1C3AB00B04B53 /* User.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				595E52D01EB1C24100B04B53 /* AppDelegate.swift in Sources */,
 				595E53001EB1C2D200B04B53 /* MainViewController.swift in Sources */,
+				595E53021EB1C3AB00B04B53 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
